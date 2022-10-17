@@ -1,11 +1,11 @@
-let inputval=document.querySelector("#Countryinput")
-let btn=document.querySelector("#add")
-let country=document.querySelector("#Countryinput")
-let descrip=document.querySelector("#description")
-let temp=document.querySelector("#temp")
-let wind=document.querySelector("#wind")
+let inputval = document.querySelector("#Countryinput")
+let btn = document.querySelector("#add")
+let country= document.querySelector("#Countryoutput")
+let descrip = document.querySelector("#description")
+let temp = document.querySelector("#temp")
+let wind = document.querySelector("#wind")
 
-apik=
+apik = "o5p85oefcjQCyxabLFhNhPPKAx47arvcVYaBMefU"
 
 function conversion(val){
     return (val - 273).toFixed(2)

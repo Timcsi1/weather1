@@ -6,23 +6,13 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  display: block;
-  margin: 8px;
-}
+
 .container-fluid {
   width: 410px;
   margin: 50px auto;
   padding: 10px;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-user agent stylesheet div {
-  display: block;
-}
+
 section {
   display: block;
 }
@@ -32,14 +22,7 @@ section {
   justify-content: center;
   background: white;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-user agent stylesheet section {
-  display: block;
-}
+
 .inputs input[type="text"] {
   height: 3.5rem;
   width: 20rem;
@@ -53,181 +36,43 @@ user agent stylesheet section {
   border-radius: 2px;
   margin-right: 4px;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-user agent stylesheet input[type="text" i] {
-  padding: 1px 2px;
-}
-user agent stylesheet input {
-  writing-mode: horizontal-tb !important;
-  font-style: ;
-  font-variant-ligatures: ;
-  font-variant-caps: ;
-  font-variant-numeric: ;
-  font-variant-east-asian: ;
-  font-weight: ;
-  font-stretch: ;
-  font-size: ;
-  font-family: ;
-  text-rendering: auto;
-  color: fieldtext;
-  letter-spacing: normal;
-  word-spacing: normal;
-  line-height: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  display: inline-block;
-  text-align: start;
-  appearance: auto;
-  -webkit-rtl-ordering: logical;
-  cursor: text;
-  background-color: field;
-  margin: 0em;
-  padding: 1px 2px;
-  border-width: 2px;
-  border-style: inset;
-  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  border-image: initial;
-}
-.inputs {
-  padding: 2rem 0 2rem 0;
-  text-align: center;
-  justify-content: center;
-  background: white;
-}
+
 .inputs input[type="submit"] {
-    height: 3.2rem;
-    width: 6.5rem;
-    background: #0a67ca;
-    font-weight: bold;
-    color: white;
-    font-size: 1.2rem;
-    margin-top: 20px;
-    border: none;
-    border-radius: 2px;
+  height: 3.2rem;
+  width: 6.5rem;
+  background: #0a67ca;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  border: none;
+  border-radius: 2px;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-user agent stylesheet
-input[type="submit" i] {
-    appearance: auto;
-    user-select: none;
-    white-space: pre;
-    align-items: flex-start;
-    text-align: center;
-    cursor: default;
 
-input {
-        writing-mode: horizontal-tb !important;
-        font-style: ;
-        font-variant-ligatures: ;
-        font-variant-caps: ;
-        font-variant-numeric: ;
-        font-variant-east-asian: ;
-        font-weight: ;
-        font-stretch: ;
-        font-size: ;
-        font-family: ;
-        text-rendering: auto;
-        color: fieldtext;
-        letter-spacing: normal;
-        word-spacing: normal;
-        line-height: normal;
-        text-transform: none;
-        text-indent: 0px;
-        text-shadow: none;
-        display: inline-block;
-        text-align: start;
-        appearance: auto;
-        -webkit-rtl-ordering: logical;
-        cursor: text;}
-        button {
-            appearance: auto;
-            writing-mode: horizontal-tb !important;
-            font-style: ;
-            font-variant-ligatures: ;
-            font-variant-caps: ;
-            font-variant-numeric: ;
-            font-variant-east-asian: ;
-            font-weight: ;
-            font-stretch: ;
-            font-size: ;
-            font-family: ;
-            text-rendering: auto;
-            color: buttontext;
-            letter-spacing: normal;
-            word-spacing: normal;
-            line-height: normal;
-            text-transform: none;
-            text-indent: 0px;
-            text-shadow: none;
-            display: inline-block;
-            text-align: center;
-            align-items: flex-start;
-            cursor: default;
-            box-sizing: border-box;
-            background-color: buttonface;
-            margin: 0em;
-            padding: 1px 6px;
-            border-width: 2px;
-            border-style: outset;
-            border-color: buttonborder;
-            border-image: initial;
-        }
 .display {
-    text-align: center;
-    width: 400px;
-    color: #16a864;
+  text-align: center;
+  width: 400px;
+  color: #16a864;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-user agent stylesheet
-section 
-{
-    display: block;
 
-    .wrapper {
-        margin: 0 9rem;
-        background-color: white;
-        height: 45vh;
-        margin: 50px auto;
-        border-radius: 2px;
-    }
-    * {
-        
-    }
-    user agent stylesheet
-    div {
-        display: block;
-    }
-    .display {
-        text-align: center;
-        width: 400px;
-        color: #16a864;
-    }
-    h2 {
-        display: block;
-        font-size: 1.5em;
-        margin-block-start: 0.83em;
-        margin-block-end: 0.83em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
-    }
-    p {
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-    }
+.wrapper {
+  margin: 0 9rem;
+  background-color: white;
+  height: 45vh;
+  margin: 50px auto;
+  border-radius: 2px;
+}
+.wrapper h2 {
+  padding: 5px 0;
+  text-align: center;
+  background: #0548b5;
+  color: white;
+  font-family: sans-serif;
+}
+.wrapper p {
+  margin: 20px 50px;
+  margin-right: 20px;
+  text-align: left;
+  color: #04214c;
+  font-size: 23px;
+}
