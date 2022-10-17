@@ -1,21 +1,19 @@
-body {
-  background: #448aff;
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: #448aff;
+}
 
+/* --------------------background */
 .container-fluid {
   width: 410px;
   margin: 50px auto;
   padding: 10px;
 }
 
-section {
-  display: block;
-}
 .inputs {
   padding: 2rem 0 2rem 0;
   text-align: center;
@@ -36,7 +34,6 @@ section {
   border-radius: 2px;
   margin-right: 4px;
 }
-
 .inputs input[type="submit"] {
   height: 3.2rem;
   width: 6.5rem;
@@ -49,19 +46,21 @@ section {
   border-radius: 2px;
 }
 
+/* -------------------------------display */
 .display {
   text-align: center;
   width: 400px;
   color: #16a864;
 }
-
 .wrapper {
   margin: 0 9rem;
+
   background-color: white;
   height: 45vh;
   margin: 50px auto;
   border-radius: 2px;
 }
+
 .wrapper h2 {
   padding: 5px 0;
   text-align: center;
@@ -75,4 +74,13 @@ section {
   text-align: left;
   color: #04214c;
   font-size: 23px;
+}
+
+.wrapper h2 span {
+  font-size: 26px;
+  color: #9beefb;
+}
+.wrapper p span {
+  color: #90006e;
+  font-size: 25px;
 }
