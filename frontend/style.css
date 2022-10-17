@@ -1,0 +1,28 @@
+body {
+  background: #448aff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  margin: 8px;
+}
+.container-fluid {
+  width: 410px;
+  margin: 50px auto;
+  padding: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+user agent stylesheet div {
+  display: block;
+}
+section {
+  display: block;
+}
