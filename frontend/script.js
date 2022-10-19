@@ -8,7 +8,7 @@
       let wind = document.querySelector('#wind')
       
        
-      apik = "3045dd712ffe6e702e3245525ac7fa38"
+      apik = "8c951904bbca0c5c20997e281408d8e6"
       
       //kelvin to celcious. 1 Kelvin is equal to -272.15 Celsius.
       
