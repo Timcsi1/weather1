@@ -5,6 +5,9 @@
 }
 body {
   background: #4489ff45;
+  background-image: url("https://img.itch.zone/aW1nLzk4Nzg5Ni5naWY=/original/V5VZ3o.gif");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
 }
 
 /* --------------------background */
@@ -24,26 +27,26 @@ body {
 .inputs input[type="text"] {
   height: 3.5rem;
   width: 20rem;
-  background: #212121;
+  background: #8e8a8a;
   font-weight: bold;
   font-size: 1.1rem;
   padding: 10px;
   border: none;
   background-color: transparent;
   border: 2px solid #c2c2c2;
-  border-radius: 2px;
+  border-radius: 10px;
   margin-right: 4px;
 }
 .inputs input[type="submit"] {
   height: 3.2rem;
   width: 6.5rem;
-  background: #0a67ca;
+  background: #a77acb;
   font-weight: bold;
   color: white;
   font-size: 1.2rem;
   margin-top: 20px;
   border: none;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 /* -------------------------------display */
@@ -52,7 +55,7 @@ body {
   width: 400px;
   color: #16a864;
 }
-.wrapper {
+.widget {
   margin: 0 9rem;
 
   background-color: white;
@@ -61,14 +64,14 @@ body {
   border-radius: 2px;
 }
 
-.wrapper h2 {
+.widget h2 {
   padding: 5px 0;
   text-align: center;
-  background: #0548b5;
+  background: #ae7fdc;
   color: white;
   font-family: sans-serif;
 }
-.wrapper p {
+.widget p {
   margin: 20px 50px;
   margin-right: 20px;
   text-align: left;
@@ -76,11 +79,11 @@ body {
   font-size: 23px;
 }
 
-.wrapper h2 span {
+.widget h2 span {
   font-size: 26px;
   color: #9beefb;
 }
-.wrapper p span {
+.widget p span {
   color: #90006e;
   font-size: 25px;
 }
